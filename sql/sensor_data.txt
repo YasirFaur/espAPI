@@ -1,0 +1,11 @@
+# create sensor data table
+CREATE TABLE sensor_data(
+    # set id as primary key
+    id int AUTO_INCREMENT PRIMARY key,
+    # store device id foreign key
+    device_id int not null,
+    #store sensor value
+    value float not null,
+    #store reading timestamp
+    created_at timestamp DEFAULT CURRENT_TIMESTAMP
+);

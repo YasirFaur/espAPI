@@ -1,0 +1,9 @@
+# create devices table
+CREATE TABLE devices(
+    # define id as primary key
+    device_id int AUTO_INCREMENT PRIMARY KEY,
+    # stor device name
+    device_name varchar(100) not null,
+    # store device status
+    status varchar(50) not null
+);

@@ -1,0 +1,9 @@
+-- create users table
+CREATE TABLE users(    
+    -- set id as primary key    
+    id int AUTO_INCREMENT PRIMARY KEY,    
+    -- store user email    
+    email varchar(255) not null,    
+    -- store user password    
+    password varchar(255) not null
+);
